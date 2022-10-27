@@ -26,7 +26,7 @@ public class Product {
 
     public static Product generateProduct() {
         double[] randCost = {9.99, 0.99, 49.99, 89.99, 79.99, 99.99, 152.99, 299.99};
-        String[] randName = {"Twix", "MilkyWays", "Snickers", "Baunty"};
+        String[] randName = {"Twix", "MilkyWays", "Snickers", "Baunty", "Object"};
         Random random = new Random();
         Product product = new Product(randCost[random.nextInt(randCost.length)], randName[random.nextInt(randName.length)]);
         return product;
