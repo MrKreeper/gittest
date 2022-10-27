@@ -1,5 +1,5 @@
 public class Cat implements Animal{
     public void speak() {
-        System.out.println("мяу");
+        System.out.println("meow");
     }
 }
