@@ -8,20 +8,5 @@ public class Main {
         animalList.add(new Dog());
         Speak sp = new Speak(animalList);
         sp.start();
-        /*Person me = new Person("Tima", new Person("Sergey", new Person("Alexandr", null, null), null), new Person("Natalia", null, new Person("Ludmila", null, null)));
-        System.out.println(me);
-
-        Product product = new Product(49.99, "Вкус0чка");
-        System.out.println(product);
-        System.out.println(product.getCost());
-        WMachine mach = new WMachine(100);
-        System.out.println(mach);
-        mach.setProduct(0, product);
-        System.out.println(mach.getProduct(1));
-        System.out.println(mach);
-        System.out.println(mach.productList[0]);
-        throw new NumberFormatException();
-         */
-
     }
 }
