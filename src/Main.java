@@ -6,10 +6,8 @@ public class Main {
         List<Animal> animalList = new ArrayList<>();
         animalList.add(new Cat());
         animalList.add(new Dog());
-        Speak csp = new Speak(animalList);
-        Speak dsp = new Speak(animalList);
-        csp.start();
-        dsp.start();
+        Speak sp = new Speak(animalList);
+        sp.start();
         /*Person me = new Person("Tima", new Person("Sergey", new Person("Alexandr", null, null), null), new Person("Natalia", null, new Person("Ludmila", null, null)));
         System.out.println(me);
 
