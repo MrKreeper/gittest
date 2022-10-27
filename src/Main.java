@@ -7,6 +7,5 @@ public class Main {
         animalList.add(new Cat());
         animalList.add(new Dog());
         Speak sp = new Speak(animalList);
-        sp.start();
     }
 }

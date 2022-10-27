@@ -1,16 +1,14 @@
 import java.util.List;
 import java.util.Random;
-public class Speak extends Thread{
+public class Speak{
     List<Animal> animallist;
     public Speak(List<Animal> animallist) {
-        this.animallist = animallist;
-    }
 
-    @Override
-    public void run() {
+        this.animallist = animallist;
         while (true) {
             Random random = new Random();
             animallist.get(random.nextInt(animallist.size())).speak();
         }
     }
+
 }
